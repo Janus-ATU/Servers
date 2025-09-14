@@ -32,6 +32,6 @@ PERC H745 Front (Embedded)
 | 25gb02   | F4:C7:AA:4C:9D:41 |                 |                |               |         |
 
 ## Actions
-Add a BOSS card
-Use 25GB's cards
-Get 2nd GB card working
+- Add a BOSS card
+- Use 25GB's cards
+- Get 2nd GB card working
