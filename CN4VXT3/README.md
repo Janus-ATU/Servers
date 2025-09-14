@@ -22,8 +22,8 @@ PERC H745 Front (Embedded)
 
 | NIC      | MAC               | to Switch       | Switch IPv4    | Port          | VLAN ID |
 | -------- | ----------------- |-----------------|----------------|---------------|---------| 
-| gb01     | B4:45:06:E8:56:95 |                 | 172.27.10.131  | Gi1/31        |    6    |
-| gb02     | B4:45:06:E8:56:96 |                 |                |               |         |
+| gb01     | B4:45:06:E8:56:95 |  mgmt-sw-13     | 172.27.15.13   | Gi1/31        |    6    |
+| gb02     | B4:45:06:E8:56:96 |  mgmt-sw-13     | 172.27.15.13   | Gi1/48        |  Tagged |
 | 1gb01    | B4:83:51:04:18:FC |                 |                |               |         |
 | 1gb02    | B4:83:51:04:18:FD |                 |                |               |         |
 | 1gb03    | B4:83:51:04:18:FE |                 |                |               |         |
@@ -32,6 +32,7 @@ PERC H745 Front (Embedded)
 | 25gb02   | F4:C7:AA:4C:9D:41 |                 |                |               |         |
 
 ## Actions
+- Rewipe the SSDs in RAID0
 - Add a BOSS card
 - Use 25GB's cards
-- Get 2nd GB card working
+
