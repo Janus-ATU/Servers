@@ -32,7 +32,7 @@ PERC H745 Front (Embedded)
 | 25gb02   | F4:C7:AA:4C:9D:41 |                 |                |               |         |
 
 ## Actions
-- Rewipe the SSDs in RAID0
 - Add a BOSS card
+- Rewipe the SSDs in RAID0
 - Use 25GB's cards
 
